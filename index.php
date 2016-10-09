@@ -18,7 +18,7 @@ and open the template in the editor.
         # Punkte verbinden nicht nur Variablen 
         echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (60-8) . " Jahre alt.";  
         # oder 
-        $mein_alter = 60 - 8;
+        $mein_alter = date('Y') - 1964;
         echo "Heute ist der " . date('d.m.Y') . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.'; 
 ?>    
     </body>
