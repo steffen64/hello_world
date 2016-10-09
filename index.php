@@ -24,8 +24,8 @@ and open the template in the editor.
         echo "Heute ist der " . $datum_heute . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt. <br>';  
         # Variablen erhöhen die Übersichtlichkeit, vor allem wenn man berechnete Werte mehrfach nutzen will 
         echo "Aber Du bist noch keine $mein_alter Jahre alt. <br>";          
-        $sascha = $mein_alter - 10;  
-        if($sascha < $mein_alter){
+        $Du = $mein_alter - 10;  
+        if($Du < $mein_alter){
             echo  " ... junger Hüpfer ... <br>";
         }
 ?>    
