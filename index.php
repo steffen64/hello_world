@@ -14,6 +14,7 @@ and open the template in the editor.
         $vorname = "Sascha";
         $zusatz = "ein geiler Typ";
         echo "Dein Vorname ist <h3>$vorname</h3> und Du bist <h3>$zusatz</h3>";
+        echo "Dein Vorname ist <h3>" . $vorname . "</h3> und Du bist <h3>" . $zusatz . "</h3>";
 ?>    
     </body>
 </html>
