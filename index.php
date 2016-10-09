@@ -16,7 +16,7 @@ and open the template in the editor.
         echo "Dein Vorname ist <h3>$vorname</h3> und Du bist <h3>$zusatz</h3>";
         echo "Dein Vorname ist <h3>" . $vorname . "</h3> und Du bist <h3>" . $zusatz . "</h3>";
         # Punkte verbinden nicht nur Variablen 
-        echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (60-8) . " Jahre alt.";  
+        echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (date('Y') - 1964) . " Jahre alt.";  
         # oder 
         $mein_alter = date('Y') - 1964;
         echo "Heute ist der " . date('d.m.Y') . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.'; 
