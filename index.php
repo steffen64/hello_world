@@ -16,7 +16,7 @@ and open the template in the editor.
         echo "Dein Vorname ist <h3>$vorname</h3> und Du bist <h3>$zusatz</h3>";
         echo "Dein Vorname ist <h3>" . $vorname . "</h3> und Du bist <h3>" . $zusatz . "</h3>";
         ### 
-        echo '<hr>';
+        echo '-------------------------------------------------<br>';
         # Punkte verbinden nicht nur Variablen mit Zeichenketten
         # man kann auch Funktionen direkt einbinden oder Berechnungen ausführen, ohne vorher Variablen dafür anzulegen   
         echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (date('Y') - 1964) . " Jahre alt. <br>";  
@@ -30,7 +30,7 @@ and open the template in the editor.
         if($Du < $mein_alter){
             echo  " ... junger Hüpfer ... <br>";
         }
-        echo '<hr>';
+        echo '-------------------------------------------------<br>';
         ###
 ?>    
     </body>
