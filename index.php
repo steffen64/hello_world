@@ -15,9 +15,10 @@ and open the template in the editor.
         $zusatz = "ein geiler Typ";
         echo "Dein Vorname ist <h3>$vorname</h3> und Du bist <h3>$zusatz</h3>";
         echo "Dein Vorname ist <h3>" . $vorname . "</h3> und Du bist <h3>" . $zusatz . "</h3>";
-        # Punkte verbinden nicht nur Variablen, sondern auch Funktionsaufrufe, Zeichenketten, Zahlen 
+        # Punkte verbinden nicht nur Variablen mit Zeichenketten
+        # man kann auch Funktionen direkt einbinden oder Berechnungen ausführen, ohne vorher Variablen dafür anzulegen   
         echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (date('Y') - 1964) . " Jahre alt.";  
-        # oder 
+        # oder mit Variablen 
         $datum_heute = date('d.m.Y'); 
         $mein_alter = date('Y') - 1964;
         echo "Heute ist der " . $datum_heute . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.'; 
