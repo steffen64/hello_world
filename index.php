@@ -19,7 +19,7 @@ and open the template in the editor.
         echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . (60-8) . " Jahre alt.";  
         # oder 
         $mein_alter = 60 - 8;
-        echo "Heute ist der " . date('d.m.Y') . ". Ich bin z.Z. " . $mein_alter . "Jahre alt."; 
+        echo "Heute ist der " . date('d.m.Y') . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.'; 
 ?>    
     </body>
 </html>
