@@ -21,7 +21,13 @@ and open the template in the editor.
         # oder mit Variablen 
         $datum_heute = date('d.m.Y'); 
         $mein_alter = date('Y') - 1964;
-        echo "Heute ist der " . $datum_heute . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.'; 
+        echo "Heute ist der " . $datum_heute . '. Ich bin z.Z. ' . $mein_alter . ' Jahre alt.';  
+        # Variablen erhöhen die Übersichtlichkeit, vor allem wenn man berechnete Werte mehrfach nutzen will 
+        echo "Aber Du bist noch keine $mein_alter Jahre alt.";          
+        $sascha = $mein_alter - 10;  
+        if($sascha < $mein_alter){
+            echo  " ... junger Hüpfer ... ";
+        }
 ?>    
     </body>
 </html>
